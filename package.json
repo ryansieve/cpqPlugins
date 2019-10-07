@@ -1,0 +1,26 @@
+{
+  "name": "cpqPlugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "jest --collectCoverage",
+    "build": "rollup -c",
+    "buildDev": "rollup -c rollup.config.dev.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^4.0.0",
+    "jest": "^23.6.0",
+    "jsforce": "^1.9.1",
+    "rollup-plugin-terser": "^3.0.0"
+  },
+  "keywords": [
+    "Salesforce",
+    "CPQ",
+    "Plugin"
+  ],
+  "author": "Ryan Sieve"
+}
